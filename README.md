@@ -10,7 +10,9 @@ GRIFFIN-SOH
 ###VME Setup
 Everything in `VME/` is from K. Olchanski unless otherwise noted - thanks!
 
-The VME frontend of choice is located in `VME/frontends/fewiener`.  The easiest thing to do is make 7 copies of this directory as `VME-1` to `VME-7`; then:
+The VME frontend of choice is located in `VME/frontends/fewiener`.  The easiest thing to do is make 7 copies of this directory as `VME-1` to `VME-7`;
+EDIT from Adam Jan 2015: /*Rather than creating 7 different directories we have created 7 versions of the executable file only. They reside in the frontends folder of the 'VME' folder.*/
+ then:
 
  - change each `FE_NAME` and `EQ_NAME` to something appropriate, like `grifvps0x` and `VME-0x` respectively
  - `make` in each directory

@@ -12,7 +12,7 @@ import notify
 # like e-mail recipients
 # or who generated the e-mail
 
-def email(SUBJ,BODY,TO=None,FROM="tigsoh@triumf.ca"):
+def email(SUBJ,BODY,TO=None,FROM="grifsoh@triumf.ca"):
   """ noftify.email(subject,body):  Send e-mails w/ subject & body
 This allows for some standard info to be put in like e-mail recipients
  or who generated the e-mail"""
